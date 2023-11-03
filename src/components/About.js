@@ -39,7 +39,7 @@ const About = () => {
          <h2 className='h2 text-accent'>
           About me.
          </h2>
-         <h3 className='h3 mb-4'>I'm working with Front-end Developer with over 5 years of experience. </h3>
+         <h3 className='h3 mb-4'>I'm working with Front-end Developer with over 2 years of experience. </h3>
          <p>
          I'm web developer who turns lines of code into beautiful, functional websites. <br/> With a passion for problem-solving, I build web applications that work like a charm and look great. <br/>
          A UX/UI designer with a flair for creating delightful digital experiences.<br/> I blend creativity with a deep understanding of user needs to craft interfaces that are both visually appealing and intuitive.
@@ -48,7 +48,7 @@ const About = () => {
         <div className='flex gap-x-6 lg:gap-x-10 mb-12 mt-6'>
         <div className=''>
           <div className='text-[40px] font-tertiary text-gradient mb-2'>
-            {inView ? <CountUp start={0} end={5} duration={3}/> : null}
+            {inView ? <CountUp start={0} end={2} duration={3}/> : null}
           </div>
           <div className='font-primary text-sm tracking-[2px]'>
              years of <br/>
@@ -57,7 +57,7 @@ const About = () => {
          </div>
         <div className=''>
           <div className='text-[40px] font-tertiary text-gradient mb-2 '>
-            {inView ? <CountUp start={0} end={1200} duration={3}/> : null}
+            {inView ? <CountUp start={0} end={500} duration={3}/> : null}
             +
           </div>
           <div className='font-primary text-sm tracking-[2px]'>
@@ -67,8 +67,8 @@ const About = () => {
          </div>
         <div className=''>
           <div className='text-[40px] font-tertiary text-gradient mb-2'>
-            {inView ? <CountUp start={0} end={1} duration={3}/> : null}
-             k+
+            {inView ? <CountUp start={0} end={450} duration={3}/> : null}
+             +
           </div>
           <div className='font-primary text-sm tracking-[2px]'>
             Client <br/>
