@@ -10,6 +10,7 @@ import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 // variants
 import { fadeIn } from "../variants";
+import { Link } from 'react-scroll';
 
 const Banner = () => {
   return <section className='section' id='home'>
@@ -74,8 +75,9 @@ Hey there! I'm Naym Ehsan, a web developer who turns lines of code into beautifu
                  viewport={{once: false,amount:0.7}}
 
             className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-                <a href='#'><FaFacebook/></a>
+                <a href='https://github.com/NayemEhsan'><FaFacebook/></a>
                 <a href='#'><FaGithub/></a>
+                
                 <a href='#'><FaDribbble/></a>
               </motion.div>
               </div>
